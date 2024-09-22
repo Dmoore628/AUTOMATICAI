@@ -27,16 +27,27 @@ pip install pandas gym numpy stable-baselines3 binance
 1. Fetch Historical Data
 Use the fetch_historical_data.py script to fetch historical cryptocurrency data and save it to a CSV file.
 
+```bash
+python fetch_historical_data.py
+```
 2. Train the Model
 Use the train_model_with_shorting.py script to train a reinforcement learning model with shorting capabilities.
 
+```bash
+python train_model.py
+```
 This script includes:
 
 Loading historical data from btc_historical_data.csv.
 Defining a custom trading environment with actions for holding, buying, selling, and closing positions.
 Training a PPO model using the custom environment.
+
 3. Deploy the Trading Bot
 Use the reinforcement_learning_trader.py script to deploy the trained model for real-time trading.
+
+```bash
+python real_time_trader.py
+```
 
 This script includes:
 
