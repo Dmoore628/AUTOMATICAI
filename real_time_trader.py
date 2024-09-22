@@ -5,9 +5,9 @@ import time
 import signal
 import sys
 
-# Binance.US API credentials (replace with your Binance.US API key and secret)
-api_key = 'your_binance_us_api_key'
-api_secret = 'your_binance_us_api_secret'
+# Binance.US API credentials 
+api_key = 'INSERT YOUR OWN BINANCE API KEY HERE'
+api_secret = 'INSERT YOUR OWN BINANCE API KEY HERE'
 
 # Initialize the Binance client for real-time data
 client = Client(api_key, api_secret, tld='us')
