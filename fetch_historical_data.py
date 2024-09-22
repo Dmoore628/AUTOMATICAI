@@ -5,8 +5,8 @@ from datetime import datetime
 from tqdm import tqdm  # For progress bar
 
 # Binance.US API credentials 
-api_key = 'ub30n7csvB9QVSgGFpfc5pTzQCC0MlFOXZckHfQdMeqX3Ixy6r2qDIL6YHoVuHOs'
-api_secret = '5LJpTSDrHXCZh8mOvb3fOakUzqAZTp1CWwGc6heclQTXBqxM7opqy0TCUfBtJZoe'
+api_key = 'INSERT YOUR OWN BINANCE API KEY HERE'
+api_secret = 'INSERT YOUR OWN BINANCE API KEY HERE'
 
 # Initialize the Binance client for fetching data
 client = Client(api_key, api_secret, tld='us')
