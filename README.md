@@ -23,7 +23,7 @@ You can install the required libraries using pip:
 ```bash
 pip install pandas gym numpy stable-baselines3 binance
 
-Usage
+## Usage
 1. Fetch Historical Data
 Use the fetch_historical_data.py script to fetch historical cryptocurrency data and save it to a CSV file.
 
