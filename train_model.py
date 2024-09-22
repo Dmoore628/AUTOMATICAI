@@ -112,4 +112,4 @@ model = PPO('MlpPolicy', env, verbose=1)
 model.learn(total_timesteps=10000)
 
 # Save the trained model
-model.save("ppo_trading_model_with_short")
+model.save("ppo_trading_model")
