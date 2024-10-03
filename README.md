@@ -54,7 +54,7 @@ This script includes:
 Initializing the Binance client.
 Loading the trained PPO model.
 Fetching real-time market data.
-Making trading decisions based on the model.
+Making trading decisions based on the models current neural network configuration.
 Logging trades to trade_log.csv.
 Disclaimer
 This trading bot is for educational purposes only. Trading cryptocurrencies involves significant risk and can result in substantial financial losses. Use this bot at your own risk.
