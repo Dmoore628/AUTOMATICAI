@@ -1,7 +1,7 @@
 # AUTOMATICAI
-# Crypto Trading Bot with Reinforcement Learning
+# Self Learning AI Crypto Trading Bot
 
-This repository contains scripts to fetch historical cryptocurrency data, train a reinforcement learning model with shorting capabilities, and deploy a trading bot using the trained model.
+This repository contains scripts to fetch historical cryptocurrency data, train an AI model with with PPO algorithm and reinforcemnet learning algorithms, providing the AI with input capturing capabilities and possible actions to take, and deploy a trading bot using the trained model on real time BTC/USDT on binance.
 
 ## Files
 
